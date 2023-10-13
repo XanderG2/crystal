@@ -37,6 +37,7 @@ import { PgRowByUniquePlugin } from "./plugins/PgRowByUniquePlugin.js";
 import { PgTableNodePlugin } from "./plugins/PgTableNodePlugin.js";
 import { PgTablesPlugin } from "./plugins/PgTablesPlugin.js";
 import { PgTypesPlugin } from "./plugins/PgTypesPlugin.js";
+import { PgPolymorphismOnlyArgumentPlugin } from "./plugins/PgPolymorphismOnlyArgumentPlugin.js";
 
 // TODO: version this.
 export const defaultPreset: GraphileConfig.Preset = {
@@ -78,5 +79,6 @@ export const defaultPreset: GraphileConfig.Preset = {
     PgRBACPlugin,
     PgIndexBehaviorsPlugin,
     PgRegistryPlugin,
+    PgPolymorphismOnlyArgumentPlugin,
   ],
 };
