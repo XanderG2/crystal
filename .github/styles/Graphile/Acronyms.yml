@@ -65,3 +65,13 @@ exceptions:
   - ESM
   - AWS
   - ORM
+  - CJS
+  - MIT
+  - CRUD
+  - JWT
+  - AST
+  - CORS
+  - CSRF
+  - JIT
+  - LTS
+  - GNU
